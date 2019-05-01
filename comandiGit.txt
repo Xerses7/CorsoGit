@@ -8,4 +8,5 @@ git config --global user.name "<name>"
 git config --help
 
 git commit -m "<messaggio>"
+git commit -a # committa automaticamente solo i file già aggiunti e se ho eliminato file da git li elimina del tutto
 git log
