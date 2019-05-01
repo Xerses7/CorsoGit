@@ -1,0 +1,8 @@
+git add .
+git status
+git rm -f file.txt 
+git rm --cached file.txt
+
+git config --global user.email "<email>"
+git config --global user.name "<name>"
+git config --help
