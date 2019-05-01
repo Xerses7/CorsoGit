@@ -13,3 +13,5 @@ git log
 
 git checkout <id da git log>
 git checkout master
+
+git revert <id da git log>
