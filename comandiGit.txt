@@ -6,3 +6,6 @@ git rm --cached file.txt
 git config --global user.email "<email>"
 git config --global user.name "<name>"
 git config --help
+
+git commit -m "<messaggio>"
+git log
