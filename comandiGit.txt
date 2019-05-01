@@ -9,6 +9,7 @@ git config --help
 
 git commit -m "<messaggio>"
 git log
+git log --oneline
 
 git checkout <id da git log>
 git checkout master
