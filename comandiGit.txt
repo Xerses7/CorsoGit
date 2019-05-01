@@ -10,3 +10,6 @@ git config --help
 git commit -m "<messaggio>"
 git commit -a # committa automaticamente solo i file già aggiunti e se ho eliminato file da git li elimina del tutto
 git log
+
+git checkout <id da git log>
+git checkout master
