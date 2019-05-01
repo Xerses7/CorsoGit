@@ -10,8 +10,11 @@ git config --help
 git commit -m "<messaggio>"
 git commit -a # committa automaticamente solo i file già aggiunti e se ho eliminato file da git li elimina del tutto
 git log
+<<<<<<< HEAD
 
 git checkout <id da git log>
 git checkout master
 
 git revert <id da git log>
+=======
+>>>>>>> parent of b01d4d5... aggiunto checkout a file comandi Git
