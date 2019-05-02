@@ -8,6 +8,7 @@ git config --global user.name "<name>"
 git config --help
 
 git commit -m "<messaggio>"
+git commit -a
 git log
 git log --oneline
 
@@ -15,3 +16,5 @@ git checkout <id da git log>
 git checkout master
 
 git revert <id da git log>
+
+git reset --hard <id del commit> # cancella tutti i commit precedenti e porta il master a quello scelto
