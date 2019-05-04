@@ -18,3 +18,5 @@ git checkout master
 git revert <id da git log>
 
 git reset --hard <id del commit> # cancella tutti i commit precedenti e porta il master a quello scelto
+
+git rm -r --cached . # da fare dopo creazione gitignore a metà progetto
