@@ -32,5 +32,5 @@ git merge nomebranch
 # una volta risolto il conflitto, fare git add sul file esplicitato
 git add nomefile
 # committare ==> conflitto risolto
+git commit | aggiungere solo commit senza messaggi per concludere il merge
 
-# test
