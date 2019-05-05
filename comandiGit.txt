@@ -11,6 +11,7 @@ git commit -m "<messaggio>"
 git commit -a
 git log
 git log --oneline
+# nuovo commento del branch dirs
 
 git checkout <id da git log>
 git checkout master
@@ -24,3 +25,10 @@ git rm -r --cached . # da fare dopo creazione gitignore a metà progetto
 git branch # elenco dei branch
 git branch nomebranch
 git checkout nomebranch
+
+# da master
+git merge nomebranch
+# in caso diu conflitto
+# una volta risolto il conflitto, fare git add sul file esplicitato
+git add nomefile
+# committare ==> conflitto risolto
