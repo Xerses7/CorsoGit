@@ -23,3 +23,4 @@ git reset --hard <id del commit> # cancella tutti i commit precedenti e porta il
 git rm -r --cached . # da fare dopo creazione gitignore a metà progetto
 
 # commento del branch dirs
+git commit | aggiungere solo commit senza messaggi per concludere il merge
