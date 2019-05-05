@@ -20,3 +20,7 @@ git revert <id da git log>
 git reset --hard <id del commit> # cancella tutti i commit precedenti e porta il master a quello scelto
 
 git rm -r --cached . # da fare dopo creazione gitignore a metà progetto
+
+git branch # elenco dei branch
+git branch nomebranch
+git checkout nomebranch
