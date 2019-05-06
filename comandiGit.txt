@@ -34,3 +34,14 @@ git add nomefile
 # committare ==> conflitto risolto
 git commit | aggiungere solo commit senza messaggi per concludere il merge
 
+# detached HEAD
+git checkout <id commit>
+git branch
+gid add .
+git commit -m "mex"
+# HEAD si muove, master no
+# per salvare i commit dal garbage collector
+git checkout <id commmit>
+git branch nomebranch
+git checkout master
+# rimane traccia dei commit nuovi come branch
