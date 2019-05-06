@@ -45,3 +45,7 @@ git checkout <id commmit>
 git branch nomebranch
 git checkout master
 # rimane traccia dei commit nuovi come branch
+
+# carica su GitHub
+git remote add origin https://github.com/Xerses7/CorsoGit.git
+git push -u origin master
