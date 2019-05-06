@@ -45,3 +45,6 @@ git checkout <id commmit>
 git branch nomebranch
 git checkout master
 # rimane traccia dei commit nuovi come branch
+
+# clona il repo
+git clone https://github.com/Xerses7/CorsoGit.git
