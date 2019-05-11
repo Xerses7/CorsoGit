@@ -53,3 +53,6 @@ git push -u origin master
 # clona il repo
 git clone https://github.com/Xerses7/CorsoGit.git
 
+# prendi una versione del repo modificata e fai merge
+git pull origin master
+
