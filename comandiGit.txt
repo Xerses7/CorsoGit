@@ -49,3 +49,7 @@ git checkout master
 # carica su GitHub
 git remote add origin https://github.com/Xerses7/CorsoGit.git
 git push -u origin master
+
+# clona il repo
+git clone https://github.com/Xerses7/CorsoGit.git
+
