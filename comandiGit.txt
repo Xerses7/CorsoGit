@@ -65,3 +65,7 @@ git pull origin master
 6. commit
 7. rinominare / spostare la dir del progetto alla destinazione voluta
 
+# trova le differenze tra Working Area e Index
+git diff
+# trova le differenze tra Index e repo
+git diff --cached
