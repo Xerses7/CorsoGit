@@ -70,3 +70,15 @@ git pull origin master
 git diff
 # trova le differenze tra Index e repo
 git diff --cached
+
+# rinominare file
+mv file2.txt prova.txt
+git status
+# riporta il file "cancellato" e l'altro unstaged
+git add file2.txt
+git add prova.txt
+git status
+# git riconosce il renaming
+
+# sostituto per il precedente
+git mv prova.txt testo.txt
