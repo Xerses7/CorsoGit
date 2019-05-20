@@ -18,7 +18,13 @@ git checkout master
 
 git revert <id da git log>
 
-git reset --hard <id del commit> # cancella tutti i commit precedenti e porta il master a quello scelto
+git reset # muove il branch
+git reset --hard <id del commit> # porta il branch master al commit scelto: i commit dopo vengono garbage collected
+# HEAD segue il branch durante il reset
+git reset --mixed <id del commit> # sposta il branch ma copia dati solo nell'Index
+# utile per osservare le differenze con git diff ?
+git reset --soft <id del commit> # sposta il branch ma non copia dati in Working Area e Index
+git reset HEAD # per togliere tutte le modifiche da Index
 
 git rm -f # cancella file da index e WA
 git rm -r --cached . # da fare dopo creazione gitignore a metà progetto
@@ -82,3 +88,4 @@ git status
 
 # sostituto per il precedente
 git mv prova.txt testo.txt
+
