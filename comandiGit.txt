@@ -89,3 +89,4 @@ git status
 # sostituto per il precedente
 git mv prova.txt testo.txt
 
+git stash apply
