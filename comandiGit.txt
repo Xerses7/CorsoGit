@@ -89,4 +89,8 @@ git status
 # sostituto per il precedente
 git mv prova.txt testo.txt
 
+git stash --include-untracked
+git stash list
 git stash apply
+
+
