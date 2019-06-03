@@ -93,4 +93,6 @@ git stash --include-untracked
 git stash list
 git stash apply
 
+# per portare la versione di un file da repo a Working area e Index 
+git checkout HEAD menu.txt
 
