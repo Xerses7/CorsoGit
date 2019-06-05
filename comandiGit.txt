@@ -96,3 +96,19 @@ git stash apply
 # per portare la versione di un file da repo a Working area e Index 
 git checkout HEAD menu.txt
 
+git log --graph --decorate --oneline
+git show <hash>
+git show HEAD
+git show HEAD^^ #vai due commit prima di HEAD
+git show HEAD~2 # vai due commit prima di HEAD
+git show HEAD~2^2 # vai indietro di due commit e poi al secondo branch
+git show HEAD@{"1 month ago"}
+git show HEAD@{"3 weeks ago"}
+
+git blame <filename> # mostra riga per riga i commit del file
+git diff <branch> master # differenza tra branch
+git diff HEAD HEAD^2 # differenza tra HEAD e 2 commit prima
+
+git rebase -i <commit> # edita la storia da questo commit ESCLUSO in poi
+
+git revert <commit> # aggiunge un commit che è l'opposto di quello indicato
