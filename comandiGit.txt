@@ -112,3 +112,4 @@ git diff HEAD HEAD^2 # differenza tra HEAD e 2 commit prima
 git rebase -i <commit> # edita la storia da questo commit ESCLUSO in poi
 
 git revert <commit> # aggiunge un commit che è l'opposto di quello indicato
+
