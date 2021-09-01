@@ -113,3 +113,4 @@ git rebase -i <commit> # edita la storia da questo commit ESCLUSO in poi
 
 git revert <commit> # aggiunge un commit che è l'opposto di quello indicato
 
+test testo
